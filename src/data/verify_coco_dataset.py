@@ -197,13 +197,13 @@ if __name__ == '__main__':
     # 1. Danh sách các file COCO JSON đầu vào gốc.
     # PHẢI KHỚP VỚI `input_files_to_process` TRONG `merge_coco.py`
     input_files_for_check = [
-        "data/raw/333.v1i.coco/train/_annotations.coco.json",
-        "data/raw/fight_10000_images/train/_annotations.coco.json",
-        "data/raw/fight_10000_images/test/_annotations.coco.json",
-        "data/raw/fight_10000_images/valid/_annotations.coco.json",
-        "data/raw/yolov8veesles.v1i.coco/train/_annotations.coco.json",
-        "data/raw/yolov8veesles.v1i.coco/test/_annotations.coco.json",
-        "data/raw/yolov8veesles.v1i.coco/valid/_annotations.coco.json",
+        r"data/raw/333.v1i.coco/train/_annotations.coco.json",
+        r"data/raw/fight_10000_images/train/_annotations.coco.json",
+        r"data/raw/fight_10000_images/test/_annotations.coco.json",
+        r"data/raw/fight_10000_images/valid/_annotations.coco.json",
+        r"data/raw/yolov8veesles.v1i.coco/train/_annotations.coco.json",
+        r"data/raw/yolov8veesles.v1i.coco/test/_annotations.coco.json",
+        r"data/raw/yolov8veesles.v1i.coco/valid/_annotations.coco.json",
         r"data\raw\Cats.v1i.coco\test\_annotations.coco.json",
         r"data\raw\Cats.v1i.coco\train\_annotations.coco.json",
         r"data\raw\Cats.v1i.coco\valid\_annotations.coco.json",
@@ -211,7 +211,7 @@ if __name__ == '__main__':
 
     # 2. Thư mục đầu ra của bộ dữ liệu đã gộp.
     # PHẢI KHỚP VỚI `output_dataset_directory` TRONG `merge_coco.py`
-    merged_dataset_output_dir = "data/merged_fighter_jets"
+    merged_dataset_output_dir = "data/interim/merged_fighter_jets"
 
     # 3. Danh sách tên của các lớp đối tượng bạn đã lọc.
     # PHẢI KHỚP VỚI `classes_to_keep` TRONG `merge_coco.py`

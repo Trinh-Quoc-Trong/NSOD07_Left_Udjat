@@ -148,21 +148,22 @@ if __name__ == '__main__':
     # --- CẤU HÌNH CÁC THAM SỐ TRỰC TIẾP TẠI ĐÂY ---
 
     # 1. Danh sách các file COCO JSON đầu vào.
+    # Các đường dẫn này là tương đối so với thư mục gốc của dự án.
     input_files_to_process = [
-        "../../data/raw/333.v1i.coco/train/_annotations.coco.json",
-        "../../data/raw/fight_10000_images/train/_annotations.coco.json",
-        "../../data/raw/fight_10000_images/test/_annotations.coco.json",
-        "../../data/raw/fight_10000_images/valid/_annotations.coco.json",
-        "../../data/raw/yolov8veesles.v1i.coco/train/_annotations.coco.json",
-        "../../data/raw/yolov8veesles.v1i.coco/test/_annotations.coco.json",
-        "../../data/raw/yolov8veesles.v1i.coco/valid/_annotations.coco.json",
-        r"../../data\raw\Cats.v1i.coco\test\_annotations.coco.json",
-        r"../../data\raw\Cats.v1i.coco\train\_annotations.coco.json",
-        r"../../data\raw\Cats.v1i.coco\valid\_annotations.coco.json",
+        "data/raw/333.v1i.coco/train/_annotations.coco.json",
+        "data/raw/fight_10000_images/train/_annotations.coco.json",
+        "data/raw/fight_10000_images/test/_annotations.coco.json",
+        "data/raw/fight_10000_images/valid/_annotations.coco.json",
+        "data/raw/yolov8veesles.v1i.coco/train/_annotations.coco.json",
+        "data/raw/yolov8veesles.v1i.coco/test/_annotations.coco.json",
+        "data/raw/yolov8veesles.v1i.coco/valid/_annotations.coco.json",
+        r"data/raw/Cats.v1i.coco/test/_annotations.coco.json",
+        r"data/raw/Cats.v1i.coco/train/_annotations.coco.json",
+        r"data/raw/Cats.v1i.coco/valid/_annotations.coco.json",
     ]
 
     # 2. Thư mục để lưu bộ dữ liệu mới.
-    output_dataset_directory = "../../data/interim/merged_fighter_jets"
+    output_dataset_directory = "data/interim/merged_fighter_jets"
 
     # 3. Danh sách tên của các lớp đối tượng cần giữ lại.
     classes_to_keep = ["F22", "F35", "J20"]
