@@ -116,8 +116,8 @@ if __name__ == '__main__':
 
     # 3. Tỉ lệ chia dữ liệu.
     # Tỉ lệ test sẽ được tự động tính toán (1 - TRAIN_RATIO - VALID_RATIO).
-    TRAIN_RATIO = 0.6
-    VALID_RATIO = 0.2
+    TRAIN_RATIO = 0.8
+    VALID_RATIO = 0.15
     
     # --- KẾT THÚC PHẦN CẤU HÌNH ---
 

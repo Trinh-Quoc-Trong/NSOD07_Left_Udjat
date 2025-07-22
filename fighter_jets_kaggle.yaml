@@ -1,0 +1,12 @@
+# Thư mục gốc chứa các tập train/val/test
+path: /kaggle/input/fighter-data/processed_cache
+
+# Đường dẫn tương đối đến thư mục hình ảnh của mỗi tập
+train: /kaggle/input/fighter-data/processed_cache/train/images
+val: /kaggle/input/fighter-data/processed_cache/valid/images
+test: /kaggle/input/fighter-data/processed_cache/test/images
+# Classes
+names:
+  0: F22
+  1: F35
+  2: J20 

@@ -1,14 +1,8 @@
 *.pt
 *.pth
 *.pkl
-*.pt
-*.pth
-*.pkl
-*.pt
-*.pth
-*.pkl
-*.pt
-*.pth
+
+
 *.zip
 *.7z
 *.rar

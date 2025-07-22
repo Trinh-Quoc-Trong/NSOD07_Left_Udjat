@@ -194,7 +194,7 @@ if __name__ == '__main__':
 
     if user_input.lower() == 'yes':
         TARGET_DATASET_DIR = "data/interim/merged_fighter_jets"
-        SIMILARITY_THRESHOLD = 0.75
+        SIMILARITY_THRESHOLD = 0.9
         # Chỉ định các lớp bạn muốn dọn dẹp sự trùng lặp
         CLASSES_TO_DEDUPLICATE = ["F35"]
 

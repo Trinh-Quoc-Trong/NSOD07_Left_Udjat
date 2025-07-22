@@ -1,0 +1,13 @@
+# Thư mục gốc chứa các tập train/val/test
+path: data/processed
+
+# Đường dẫn tương đối đến thư mục hình ảnh của mỗi tập
+train: train/images
+val: valid/images
+test: test/images
+
+# Classes
+names:
+  0: F22
+  1: F35
+  2: J20 
